@@ -1,0 +1,467 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.container {
+  max-width: 1140px;
+  padding-left: 5px;
+  padding-right: 15px;
+  padding-left: 5px;
+  justify-content: center;
+  border: 1px;
+  margin: auto;
+}
+
+.section {
+  padding-bottom: 96px;
+  padding-top: 96px;
+}
+
+.navbar-wrap {
+  background-image: url("http://pixnio.com/free-images/2017/08/24/2017-08-24-07-23-50-1000x658.jpg");
+  background-size: cover;
+}
+
+/* Navigation */
+.navigation {
+  padding: 42px 0 42px 0;
+}
+
+.logo-header {
+  position: absolute;
+  top: 12px;
+  width: 100px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: end;
+}
+
+.navigation li {
+  display: inline-block;
+  margin-left: 36px;
+  position: relative;
+}
+
+.navigation li li {
+  width: 50px;
+  margin: 0;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation a:hover {
+  color: #33d9b2;
+}
+
+.navigation ul ul {
+  display: none;
+  margin-left: 36px;
+}
+
+.navigation li:hover ul {
+  display: block;
+  position: absolute;
+  background-color: green;
+  transform: translateX(-50%);
+  margin-top: 12px;
+  margin: auto;
+  padding: 0 24px;
+  left: 50%;
+  text-align: center;
+}
+
+/**header**/
+.splash {
+  display: flex;
+  color: #ffffff;
+  min-height: 500px;
+}
+
+.splash-inner {
+  margin: auto;
+  max-width: 70%;
+}
+
+.page-title {
+  margin: 0;
+  font-size: 32px;
+  word-spacing: 7px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.page-subtitle {
+  margin: 24px 0;
+  font-weight: 400;
+  font-size: 72px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.page-title span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: blue;
+}
+
+.btn {
+  display: block;
+  align-items: center;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  max-width: 190px;
+  font-family: Inconsolata;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  background-position: 100% 0;
+  background-size: 300%;
+}
+
+.btn:hover {
+  background-position: 0 100%;
+}
+
+.btn-btn {
+  background-color: #f1c40f;
+  font-weight: bold;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  background-color: white;
+}
+
+.services {
+  text-align: center;
+  color: black;
+  margin-top: 50px;
+  padding: 0;
+  display: inline;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.p-services {
+  font-size: 20px;
+  font-style: italic;
+  color: #747d8c;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.box {
+  color: black;
+}
+
+.box i {
+  font-size: 30px;
+  background: #f1f2f6;
+  height: 60px;
+  width: 60px;
+  color: #f1c40f;
+  border-radius: 50%;
+  border-color: #f1c40f;
+  justify-content: space-between;
+  border: 3px solid;
+  padding-top: 12px;
+  padding-left: 9px;
+}
+
+.text {
+  font-size: large;
+  padding: 5px;
+  color: #747d8c;
+  font-style: italic;
+}
+
+section h1 {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  padding: 15px;
+}
+
+.card-title {
+  font-weight: bold;
+  color: black;
+}
+
+.card-body {
+  font-size: large;
+  padding: 5px;
+  color: #747d8c;
+  font-style: italic;
+  text-align: center;
+}
+
+.card img {
+  height: 300px;
+}
+
+.portfolio {
+  background-color: #dfe4ea;
+}
+
+.footer-paragraph {
+  margin-top: 6px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.container {
+  max-width: 1140px;
+  padding-left: 5px;
+  padding-right: 15px;
+  padding-left: 5px;
+  justify-content: center;
+  border: 1px;
+  margin: auto;
+}
+
+.section {
+  padding-bottom: 96px;
+  padding-top: 96px;
+}
+
+.navbar-wrap {
+  background-image: url("http://pixnio.com/free-images/2017/08/24/2017-08-24-07-23-50-1000x658.jpg");
+  background-size: cover;
+}
+
+/* Navigation */
+.navigation {
+  padding: 42px 0 42px 0;
+}
+
+.logo-header {
+  position: absolute;
+  top: 12px;
+  width: 100px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: end;
+}
+
+.navigation li {
+  display: inline-block;
+  margin-left: 36px;
+  position: relative;
+}
+
+.navigation li li {
+  width: 50px;
+  margin: 0;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation a:hover {
+  color: #33d9b2;
+}
+
+.navigation ul ul {
+  display: none;
+  margin-left: 36px;
+}
+
+.navigation li:hover ul {
+  display: block;
+  position: absolute;
+  background-color: green;
+  transform: translateX(-50%);
+  margin-top: 12px;
+  margin: auto;
+  padding: 0 24px;
+  left: 50%;
+  text-align: center;
+}
+
+/**header**/
+.splash {
+  display: flex;
+  color: #ffffff;
+  min-height: 500px;
+}
+
+.splash-inner {
+  margin: auto;
+  max-width: 70%;
+}
+
+.page-title {
+  margin: 0;
+  font-size: 32px;
+  word-spacing: 7px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.page-subtitle {
+  margin: 24px 0;
+  font-weight: 400;
+  font-size: 72px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.page-title span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: blue;
+}
+
+.btn {
+  display: block;
+  align-items: center;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  max-width: 190px;
+  font-family: Inconsolata;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  background-position: 100% 0;
+  background-size: 300%;
+}
+
+.btn:hover {
+  background-position: 0 100%;
+}
+
+.btn-btn {
+  background-color: #f1c40f;
+  font-weight: bold;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  background-color: white;
+}
+
+.services {
+  text-align: center;
+  color: black;
+  margin-top: 50px;
+  padding: 0;
+  display: inline;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.p-services {
+  font-size: 20px;
+  font-style: italic;
+  color: #747d8c;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.box {
+  color: black;
+}
+
+.box i {
+  font-size: 30px;
+  background: #f1f2f6;
+  height: 60px;
+  width: 60px;
+  color: #f1c40f;
+  border-radius: 50%;
+  border-color: #f1c40f;
+  justify-content: space-between;
+  border: 3px solid;
+  padding-top: 12px;
+  padding-left: 9px;
+}
+
+.text {
+  font-size: large;
+  padding: 5px;
+  color: #747d8c;
+  font-style: italic;
+}
+
+section h1 {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  padding: 15px;
+}
+
+.card-title {
+  font-weight: bold;
+  color: black;
+}
+
+.card-body {
+  font-size: large;
+  padding: 5px;
+  color: #747d8c;
+  font-style: italic;
+  text-align: center;
+}
+
+.card img {
+  height: 300px;
+}
+
+.portfolio {
+  background-color: #dfe4ea;
+}
+
+.footer-paragraph {
+  margin-top: 12px;
+}
