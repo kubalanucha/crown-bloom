@@ -23,11 +23,10 @@ body {
 
 .section {
   padding-bottom: 96px;
-  padding-top: 96px;
 }
 
 .navbar-wrap {
-  background-image: url('http://pixnio.com/free-images/2017/08/24/2017-08-24-07-23-50-1000x658.jpg');
+  background-image: url('https://i.postimg.cc/KcJV9NLL/2017-08-24-07-23-50-1000x658.jpg');
   background-size: cover;
 }
 
@@ -193,6 +192,14 @@ h1 {
   padding: 5px;
   color: #747d8c;
   font-style: italic;
+  text-align: center;
+}
+
+section h1 {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  padding: 15px;
 }
 
 .card-title {
@@ -212,7 +219,26 @@ h1 {
 }
 .portfolio {
   background-color: #dfe4ea;
+  height: 1010px;
 }
-.footer-paragraph {
-  margin-top: 12px;
+
+section footer {
+  margin: 30px;
+  background-color: white;
+}
+
+.para {
+  margin-top: 20px;
+}
+
+.footer i {
+  background-color: #f1c40f;
+  font-size: 30px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 50px;
 }
