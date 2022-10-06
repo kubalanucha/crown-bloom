@@ -28,6 +28,8 @@ body {
 .navbar-wrap {
   background-image: url('https://i.postimg.cc/KcJV9NLL/2017-08-24-07-23-50-1000x658.jpg');
   background-size: cover;
+  height: 100vh;
+  max-height: 600px;
 }
 
 /* Navigation */
@@ -91,6 +93,8 @@ body {
 .splash-inner {
   margin: auto;
   max-width: 70%;
+  text-align: center;
+  margin-top: 90px;
 }
 
 .page-title {
