@@ -14,10 +14,9 @@ body {
 .container {
   max-width: 1140px;
   padding-left: 5px;
-  padding-right: 15px;
+  padding-right: 5px;
   padding-left: 5px;
   justify-content: center;
-  border: 1px;
   margin: auto;
 }
 
@@ -29,7 +28,6 @@ body {
   background-image: url('https://i.postimg.cc/KcJV9NLL/2017-08-24-07-23-50-1000x658.jpg');
   background-size: cover;
   height: 100vh;
-  max-height: 600px;
 }
 
 /* Navigation */
@@ -48,8 +46,6 @@ body {
   list-style-type: none;
   padding: 0;
   margin-bottom: 32px;
-  display: flex;
-  justify-content: end;
 }
 
 .navigation li {
@@ -73,7 +69,6 @@ body {
 }
 
 .navigation ul ul {
-  display: none;
   margin-left: 36px;
 }
 
@@ -94,7 +89,7 @@ body {
   margin: auto;
   max-width: 70%;
   text-align: center;
-  margin-top: 90px;
+  margin-top: 170px;
 }
 
 .page-title {
@@ -193,7 +188,7 @@ h1 {
 
 .text {
   font-size: large;
-  padding: 5px;
+  padding: auto;
   color: #747d8c;
   font-style: italic;
   text-align: center;
@@ -245,4 +240,12 @@ section footer {
   display: flex;
   justify-content: space-around;
   margin-left: 50px;
+}
+@media (max-width: 507px) {
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
