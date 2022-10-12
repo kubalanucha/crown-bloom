@@ -33,7 +33,7 @@ body {
 /* Navigation */
 
 .navigation {
-  padding: 42px 0 42px 0;
+  padding: 42px 10px 42px 10px;
 }
 
 .logo-header {
@@ -49,9 +49,7 @@ body {
 }
 
 .navigation li {
-  display: inline-block;
   margin-left: 36px;
-  position: relative;
 }
 
 .navigation li li {
@@ -64,24 +62,8 @@ body {
   color: white;
 }
 
-.navigation a:hover {
-  color: #33d9b2;
-}
-
 .navigation ul ul {
   margin-left: 36px;
-}
-
-.navigation li:hover ul {
-  display: block;
-  position: absolute;
-  background-color: green;
-  transform: translateX(-50%);
-  margin-top: 12px;
-  margin: auto;
-  padding: 0 24px;
-  left: 50%;
-  text-align: center;
 }
 
 /**header**/
@@ -207,17 +189,19 @@ section h1 {
 }
 .card-body {
   font-size: large;
-  padding: auto;
   color: #747d8c;
   font-style: italic;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .card img {
   height: 300px;
+  padding-bottom: 7px;
 }
 .portfolio {
   background-color: #dfe4ea;
+  padding-bottom: 10px;
 }
 
 section footer {
@@ -236,11 +220,11 @@ section footer {
   justify-content: space-around;
   margin-left: 50px;
 }
-@media (max-width: 507px) {
-  body {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
+
+@media (min-width: 576px) {
+  .menu {
+    justify-content: end;
+    flex-direction: row;
+    color: black;
   }
 }
